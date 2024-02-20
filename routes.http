@@ -1,19 +1,19 @@
-POST http://localhost:3333/videos
+POST https://node-basic-hrlf.onrender.com/videos
 Content-Type: application/json
 
 {
-    "title":  "Video sobre node",
+    "title":  "Video sobre formula 1",
     "description": "Esse é o primeiro",
     "duration": 190
 }
 
 ###
 
-GET http://localhost:3333/videos
+GET https://node-basic-hrlf.onrender.com/videos
 
 ###
 
-PUT http://localhost:3333/videos/eea0fd0f-1be1-456d-9fe0-4b8bb93ea436
+PUT https://node-basic-hrlf.onrender.com/videos/eea0fd0f-1be1-456d-9fe0-4b8bb93ea436
 Content-Type: application/json
 
 {
@@ -24,6 +24,6 @@ Content-Type: application/json
 
 ###
 
-DELETE  http://localhost:3333/videos/f84c4552-3e6b-4b7a-a29f-76eacfb5d68e
+DELETE  https://node-basic-hrlf.onrender.com/videos/f84c4552-3e6b-4b7a-a29f-76eacfb5d68e
 
 
